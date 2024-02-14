@@ -1,4 +1,6 @@
 # Data Structures and Algorithms in Java
+![Alt text](https://miro.medium.com/v2/resize:fit:1024/1*znfXfLOsNdTay8-yz7h1Sw.jpeg)
+
 
 Welcome to the "dsa-java" repository, a collection of Java implementations for various Data Structures and Algorithms.
 
