@@ -52,7 +52,7 @@ Make sure you have the Java Development Kit (JDK) installed on your machine.
 
 ### Clone the Repository
 
-Clone this repository to your local machine using the following command:
+Run this into your command prompt / Terminal to clone the repository:
 
 ```bash
-git clone https://github.com/your-username/dsa-java.git
+git clone https://github.com/krsna016/dsa-java.git
