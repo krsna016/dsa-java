@@ -1,6 +1,6 @@
 package _6_Stacks;
 
-import Library_SinglyIntegerLinkedList.Node;
+import Library_SinglyIntegerLinkedList.node.Node;
 
 public class StackCreationUsingArray {
     int top;

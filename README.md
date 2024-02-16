@@ -16,33 +16,33 @@ Welcome to the "dsa-java" repository, a collection of Java implementations for v
 
 ## 1. Time Complexity
 
-- Placeholder for information about time complexity.
+Time complexity is a concept in computer science that deals with the quantification of the amount of time taken by a set of code or algorithm to process or run as a function of the amount of input. In other words, time complexity is essentially efficiency, or how long a program function takes to process a given input.
 
 ## 2. Arrays
 
-- Placeholder for information about arrays.
+An array is a static data structure that stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
 
 ## 3. Singly Linked List
 
-- Placeholder for information about singly linked lists.
+A singly linked list is a type of data structure that is made up of nodes that are created using self referential structures. Each node contains data and a pointer to the next node in the list.
 
 ## 4. Doubly Linked List
 
-- Placeholder for information about doubly linked lists.
+A Doubly Linked List (DLL) contains an extra pointer, typically called previous pointer, together with next pointer and data which are there in singly linked list.
 
 ## 5. Singly Circular Linked List
 
-- Placeholder for information about singly circular linked lists.
+A circular singly linked list is a type of linked list in which last node points to the first node making the whole linked list a circle.
 
 ## 6. Stacks
 
-- Placeholder for information about stacks.
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner. In stack, a new element is added at one end and an element is removed from that end only.
 
 ## 7. Queues
 
-- Placeholder for information about queues.
+A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first.
 
-Feel free to explore each folder for detailed implementations, explanations, and examples related to specific Data Structures and Algorithms.
+### Feel free to explore each folder for detailed implementations, explanations, and examples related to specific Data Structures and Algorithms.
 
 ## Getting Started
 

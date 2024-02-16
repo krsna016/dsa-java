@@ -1,5 +1,5 @@
 package _3_SinglyLinkedList;
-import Library_SinglyIntegerLinkedList.Node;
+import Library_SinglyIntegerLinkedList.node.Node;
 
 public class MergeTwoSortedLL {
 
