@@ -182,7 +182,7 @@ A dequeue (double-ended queue) is a variation of a queue that allows insertion a
 Queue operations include:
 1. **Enqueue:** Add an element to the rear.
 2. **Dequeue:** Remove an element from the front.
-## Front:** Get the element at the front without removing it.
+3. **Front:** Get the element at the front without removing it.
 4. **Rear:** Get the element at the rear without removing it.
 5. **IsEmpty:** Check if the queue is empty.
 6. **IsFull:** Check if the queue is full (in fixed-size implementations).
