@@ -42,6 +42,10 @@ A stack is a linear data structure that stores items in a Last-In/First-Out (LIF
 
 A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first.
 
+## 8. Recursion
+
+Recursion is a programming and mathematical concept where a function calls itself during its execution. Instead of solving a problem directly, a recursive function solves a smaller instance of the same problem and combines the results to obtain the final solution. This technique is particularly useful when a problem can be broken down into smaller, more manageable subproblems.
+
 ### Feel free to explore each folder for detailed implementations, explanations, and examples related to specific Data Structures and Algorithms.
 
 ## Getting Started

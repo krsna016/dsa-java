@@ -2,13 +2,13 @@ package _7_Queues;
 
 import java.util.Scanner;
 
-public class QueueCreationUsingArray {
+public class CircularQueueUsingArray {
     private int front;
     private int rear;
     private int size;
     private int[] arr;
 
-    public QueueCreationUsingArray(int capacity) {
+    public CircularQueueUsingArray(int capacity) {
         arr = new int[capacity];
         this.rear = -1;
         this.front = -1;
@@ -20,7 +20,7 @@ public class QueueCreationUsingArray {
             System.err.println("Queue is Full !!");
             return;
         }
-        rear++;
+        rear = (rear + 1)%arr.length;
         arr[rear] = data;
         size ++;
     }
@@ -29,7 +29,7 @@ public class QueueCreationUsingArray {
             System.err.println("Queue is Empty !!");
             return;
         }
-        front++;
+        front = (front+1)%arr.length;
         arr[front] = Integer.MIN_VALUE;
     }
 
@@ -45,7 +45,7 @@ public class QueueCreationUsingArray {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " --> ");
         }
-        System.out.println("null");
+        System.out.println("Pointing to Start");
     }
 
 
@@ -53,7 +53,7 @@ public class QueueCreationUsingArray {
         System.out.print("Enter the capacity for the queue : ");
         Scanner sc = new Scanner(System.in);
         int cap = sc.nextInt();
-        QueueCreationUsingArray qca = new QueueCreationUsingArray(cap);
+        CircularQueueUsingArray qca = new CircularQueueUsingArray(cap);
         System.out.println("Size is : "+qca.getSize());
         qca.enqueue(10);
         qca.enqueue(20);
