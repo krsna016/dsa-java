@@ -45,6 +45,7 @@ public class CircularIntegerArrayQueue implements AbstractClass {
         }
         front = (front + 1) % arr.length;
         arr[front] = Integer.MIN_VALUE;
+        size--;
     }
 
     @Override

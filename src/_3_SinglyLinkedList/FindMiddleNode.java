@@ -38,7 +38,7 @@ public class FindMiddleNode {
     public Node find_middle_node(){
         Node slow_pointer = head;
         Node fast_pointer = head;
-        while (fast_pointer != null){
+        while (fast_pointer != null && fast_pointer.next != null){
             fast_pointer = fast_pointer.next.next;
             slow_pointer = slow_pointer.next;
         }

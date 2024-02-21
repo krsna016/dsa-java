@@ -100,6 +100,5 @@ public class DoubleEndedQueuesUsingLL {
             qc.dequeueF();
             qc.dequeueR();
             qc.dequeueR();
-
         }
     }

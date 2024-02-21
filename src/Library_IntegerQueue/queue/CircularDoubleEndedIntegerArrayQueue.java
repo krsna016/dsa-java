@@ -50,12 +50,24 @@ public class CircularDoubleEndedIntegerArrayQueue implements AbstractClass {
 
     @Override
     public void enqueueFront(int data) {
-
+        if (size == arr.length) {
+            System.err.println("Queue is Full !!");
+            return;
+        }
+        front = (front - 1 + arr.length) % arr.length;
+        arr[front] = data;
+        size++;
     }
 
     @Override
     public void dequeueRear() {
-
+        if (isEmpty()) {
+            System.err.println("Queue is Empty !!");
+            return;
+        }
+        arr[rear] = Integer.MIN_VALUE;
+        rear = (rear - 1 + arr.length) % arr.length;
+        size--;
     }
 
     @Override
@@ -77,5 +89,6 @@ public class CircularDoubleEndedIntegerArrayQueue implements AbstractClass {
         }
         front = (front + 1) % arr.length;
         arr[front] = Integer.MIN_VALUE;
+        size--;
     }
 }
